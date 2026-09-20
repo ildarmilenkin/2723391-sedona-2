@@ -2,6 +2,7 @@
 
 * Студент: [Ильдар](https://up.htmlacademy.ru/htmlcss-individual/2/user/2723391).
 * Наставник: `Неизвестно`.
+* Сайт: [Мой проект Седона](https://ildarmilenkin.github.io/2723391-sedona-2/).
 
 ---
 
