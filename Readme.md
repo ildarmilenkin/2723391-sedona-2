@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ильдар](https://up.htmlacademy.ru/htmlcss-individual/2/user/2723391).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Бервяченок](https://htmlacademy.ru/profile/jackson)
 * Сайт: [Мой проект Седона](https://ildarmilenkin.github.io/2723391-sedona-2/).
 
 ---
