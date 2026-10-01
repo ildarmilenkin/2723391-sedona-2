@@ -1,0 +1,265 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #FFF;
+  color: #000;
+  font-weight: 400;
+}
+
+.page-header {
+  background-color: inherit;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navigation-link {
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.navigation-user {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+
+}
+
+.navigation-user-item-here {
+  background-color: #756157;
+}
+
+.navigation-user-link-here {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.image-container {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.description-title,.services-title, .search-title, .appointment-title  {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.description-paragraph, .search-paragraph, .services-paragraph, .appointment-paragraph {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333;
+}
+
+.advantages {
+  background-color: #82B3D3;
+}
+
+.advantages-sity-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color:#FFF;
+}
+
+.advantages-sity-descriptions {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #FFF;
+}
+
+.advantages-item-square {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description, .results-info-hotel, .results-info-price,  .services-item-paragraph, .results-sort {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333;
+}
+
+.services-items {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.search, .services,.page-footer-phone-address, .advantages-specifications, .description, .navigation-user-item-here, .appointment, .appointment-inner{
+  text-align: center;
+}
+
+.search-button {
+  background-color: #756157;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.appointment {
+  background-image: url("../images/Subscribe.png");
+  background-color: #FFF;
+  background-repeat: no-repeat;
+}
+
+.appointment-button {
+  background-color: #82B3D3;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.page-footer-phone-address-number {
+  font-style: normal;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 40px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-photo{
+  background-color: #000;
+  background-image: url("../images/filtr.png");
+  background-repeat: no-repeat;
+  color: #FFF
+}
+
+.inner-header-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.navigation-link {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.catalog-button-submit {
+  background-color: #82B3D3;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: inherit;
+}
+
+.catalog-button-reset {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: inherit;
+}
+
+.results-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.results-card-link{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: inherit;
+  text-decoration: none;
+}
+
+.results-actions-detailed {
+  background-color: #756157;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.results-actions-favourites {
+  background-color: #82B3D3;
+  font-size: 16px;
+  font-weight: 700;
+   text-transform: uppercase;
+   color: #FFF;
+}
+
+.results-rating-rating {
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.pagination-link{
+  background-color: #82B3D3;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.pagination-dots {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}

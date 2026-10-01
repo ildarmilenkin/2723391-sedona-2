@@ -3,12 +3,13 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Гостиницы</title>
   </head>
 
   <body>
 
-    <header class="page-header">
+     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-link" href="index.html" aria-current="page">
           <img  class="navigation-logo" src="images/logo.svg" width="138" height="64" alt="Логотип Седона">
@@ -36,12 +37,30 @@
               <span class="visually-hidden">Лайки</span>
             </a>
           </li>
-          <li class="navigation-user-item">
-            <a class="navigation-user-link" href="#">Хочу сюда!</a>
+          <li class="navigation-user-item-here">
+            <a class="navigation-user-link-here" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
     </header>
+    <main class="main-inner">
+      <div class = "container-photo">
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <nav class="breadcrumbs">
+          <ul class="breadcrumbs-list">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="index.html">
+                <span class = "visually-hidden">Иконка главной страницы</span>
+              </a>
+            </li>
+
+            <li class="breadcrumbs-item">
+              <a class="navigation-link" >Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <section class="catalog-hotels">
         <h2 class="visually-hidden">Список гостиниц с фильтром</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -99,10 +118,11 @@
             <!-- Здесь слайдер стоимости -->
             <input type="range" name="price">
           </fieldset>
-          <button class="catalog-button" type="submit">Применить</button>
-          <button class="catalog-button" type="reset">Сбросить</button>
+          <button class="catalog-button-submit" type="submit">Применить</button>
+          <button class="catalog-button-reset" type="reset">Сбросить</button>
         </form>
       </section>
+      </div>
       <section class="results">
         <h2 class="results-title">найдено гостиниц: 38</h2>
         <div class="results-controls">
