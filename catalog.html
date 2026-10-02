@@ -112,14 +112,14 @@
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость, ₽:</legend>
             <div class="price-inputs">
-              <input type="number" name="price-from" value="0" placeholder="от">
-              <input type="number" name="price-to" value="9000" placeholder="до">
+              <input class = "price-input" type="number" name="price-from" value="0" placeholder="от">
+              <input class = "price-input" type="number" name="price-to" value="9000" placeholder="до">
             </div>
             <!-- Здесь слайдер стоимости -->
             <input type="range" name="price">
           </fieldset>
-          <button class="catalog-button-submit" type="submit">Применить</button>
-          <button class="catalog-button-reset" type="reset">Сбросить</button>
+          <button class="catalog-button-submit button" type="submit">Применить</button>
+          <button class="catalog-button-reset button" type="reset">Сбросить</button>
         </form>
       </section>
       </div>
@@ -157,7 +157,7 @@
             </div>
             <div class="results-actions">
               <a class="results-actions-detailed" href="#">ПОДРОБНЕЕ</a>
-              <button class="results-actions-favourites" type="button">В ИЗБРАННОЕ</button>
+              <button class="results-actions-favourites button" type="button">В ИЗБРАННОЕ</button>
             </div>
             <div class="results-rating">
               <p class="stars four-stars ">
@@ -179,7 +179,7 @@
             </div>
             <div class="results-actions">
               <a class="results-actions-detailed" href="#">ПОДРОБНЕЕ</a>
-              <button class="results-actions-favourites" type="button">В ИЗБРАННОЕ</button>
+              <button class="results-actions-favourites button" type="button">В ИЗБРАННОЕ</button>
             </div>
             <div class="results-rating">
               <p class="stars four-stars ">
@@ -201,7 +201,7 @@
             </div>
             <div class="results-actions">
               <a class="results-actions-detailed" href="#">ПОДРОБНЕЕ</a>
-              <button class="results-actions-favourites" type="button">В ИЗБРАННОЕ</button>
+              <button class="results-actions-favourites button" type="button">В ИЗБРАННОЕ</button>
             </div>
             <div class="results-rating">
               <p class="stars four-stars ">
@@ -223,7 +223,7 @@
             </div>
             <div class="results-actions">
               <a class="results-actions-detailed" href="#">ПОДРОБНЕЕ</a>
-              <button class="results-actions-favourites" type="button">В ИЗБРАННОЕ</button>
+              <button class="results-actions-favourites button" type="button">В ИЗБРАННОЕ</button>
             </div>
             <div class="results-rating">
               <p class="stars four-stars ">
@@ -258,8 +258,8 @@
         <h2 class="appointment-title">Подпишитесь на рассылку</h2>
         <p class="appointment-paragraph">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="appointment-form" action="https://echo/htmlacademy.ru" method="post">
-          <input type="text" name="appointment-email">
-          <button class="appointment-button" type="submit">Подписаться</button>
+          <input class="appointment-input" type="text" name="appointment-email" placeholder="Ваш e-mail">
+          <button class="appointment-button button" type="submit">Подписаться</button>
         </form>
       </section>
     </main>

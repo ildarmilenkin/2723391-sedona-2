@@ -23,6 +23,25 @@ body {
   font-weight: 400;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button{
+  font-family: "PT Sans";
+  border: none;
+}
+
+
 .page-header {
   background-color: inherit;
   font-size: 20px;
@@ -52,6 +71,7 @@ body {
 .navigation-user-link-here {
   color: #FFF;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .image-container {
@@ -106,7 +126,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-description, .results-info-hotel, .results-info-price,  .services-item-paragraph, .results-sort {
+.advantages-description,.results-sort, .results-info-hotel, .results-info-price,  .services-item-paragraph, .results-sort {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -135,6 +155,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #FFF;
+  font-family: inherit;
 }
 
 .appointment {
@@ -172,12 +193,6 @@ body {
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
-}
-
-.navigation-link {
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 400;
 }
 
 .catalog-filter-title {
@@ -262,4 +277,18 @@ body {
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.services-items,.results-list, .services-item, .advantages-specifications-list {
+  list-style: none;
+}
+
+.appointment-input, .price-input {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.price-input {
+  font-weight: 400;
 }
