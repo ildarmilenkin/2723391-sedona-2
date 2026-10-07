@@ -8,10 +8,11 @@
   </head>
 
   <body>
-
-    <header class="page-header header-container">
+    <div class = "container">
+    <header class="page-header">
 
       <nav class="navigation">
+        <div class="navigation-container">
         <a class="navigation-link" href="index.html" aria-current="page">
           <img  class="navigation-logo" src="images/logo.svg" width="138" height="64" alt="Логотип Седона">
         </a>
@@ -27,6 +28,7 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
         </ul>
+        </div>
         <ul class="navigation-user">
           <li class="navigation-user-item">
             <a class="navigation-user-link" href="#">
@@ -45,7 +47,7 @@
       </nav>
 
     </header>
-    <main class="main-index main-container">
+    <main class="main-index">
       <div class = "image-container">
       <h1 class="visually-hidden">Город Седона</h1>
       <img class="logo" src="images/welcome.svg" width="458"  height= "453" alt= "Логотип Города Седона">
@@ -58,8 +60,10 @@
       </section>
       <h2 class="visually-hidden">Преимущества</h2>
       <section class="advantages">
+        <div class = "advantages-container">
         <h3 class="advantages-sity-title">Настоящий городок</h2>
           <p class="advantages-sity-descriptions">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </div>
           <img class="photo-home" src="images/home-sedona.jpg" width="800" height="385" alt="Домик города Седона">
       </section>
       <section class="advantages-specifications">
@@ -79,9 +83,12 @@
         </ul>
       </section>
       <section class="advantages">
+
         <img class="img-home" src="images/canyon.jpg" width="800"  height="385"  alt="Мост дьявола">
+        <div class = "advantages-container">
         <h3 class="advantages-sity-title">Там есть мост дьявола</h2>
           <p class="advantages-sity-descriptions">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </div>
       </section>
       <section class="services">
         <h2 class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
@@ -118,7 +125,7 @@
         </form>
       </section>
     </main>
-     <footer class="page-footer footer-container">
+     <footer class="page-footer">
       <h2 class="visually-hidden">Контакты</h2>
       <section class="page-footer-contact">
         <ul class="page-footer-list">
@@ -151,7 +158,7 @@
         </a>
       </section>
     </footer>
-
+    </div>
   </body>
 
 </html>
